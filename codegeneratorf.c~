@@ -56,7 +56,7 @@ void traverse_tree(Node *node, int is_left, FILE *file){
 
 int generate_code(Node *root){
 	insert('-',"sub");
-	insert("+","add");
+	insert("+",sub);
   FILE *file = fopen("generated.asm", "w");
   assert(file != NULL && "FILE COULD NOT BE OPENED\n");
 

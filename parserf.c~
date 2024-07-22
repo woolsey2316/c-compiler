@@ -173,6 +173,7 @@ Node *parser(Token *tokens){
       case BEGINNING:
 	break;
       case END_OF_TOKENS:
+        //
 	break;
     }
     current_token++;
