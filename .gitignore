@@ -3,3 +3,5 @@ assembly/
 generated.asm
 generated
 generated.o
+*.c~
+*.h~
